@@ -1,0 +1,120 @@
+.btn-custom {
+    background-color: $mainBg;
+    color: $footerBg;
+}
+section.services {
+    background-color: $footerBg;
+
+    .item {
+        width: 100%;
+        min-height: 300px;
+        padding: 60px 25px;
+        position: relative;
+
+        h2 {
+            text-transform: uppercase;
+            font-style: italic;
+            font-weight: 600;
+            color: $mainBg;
+            font-size: 18px;
+        }
+
+        p {
+            color: $text;
+            font-size: 13px;
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+
+        .btn-custom {
+            background-color: $mainBg;
+            color: $footerBg;
+        }
+
+        &:before {
+            content: "\f63b";
+            font-family: "fontAwesome";
+            font-weight: 900;
+            text-align: center;
+            line-height: 100px;
+            text-align: center;
+            font-size: 35px;
+            color: #5a3423;
+            width: 100px;
+            height: 100px;
+            background-color: $mainBg;
+            border: 5px solid #522714;
+            border-radius: 50px;
+            box-shadow: 0px 0px 0px 5px rgba(82, 39, 20, 0.2);
+            position: absolute;
+            top: -60px;
+            right: 50%;
+            /* left: 50%; */
+            transform: translateX(50%);
+
+        }
+
+    }
+}
+
+
+
+
+.ser-item-1 {
+    border-top: 15px solid $mainBg;
+    position: relative;
+
+    &:after {
+        content: "";
+        border-right: 30px solid transparent;
+        border-bottom: 30px solid $mainBg;
+        border-left: 10px solid transparent;
+        position: absolute;
+        right: -35px;
+        top: -16px;
+        transform: rotate(72deg);
+    }
+}
+
+.ser-item-2 {
+    border-top: 15px solid $mainBg;
+    position: relative;
+
+    &:before {
+        content: "";
+        border-right: 11px solid transparent;
+        border-bottom: 11px solid $footerBg;
+        border-left: 11px solid transparent;
+        position: absolute;
+        left: 13px;
+        top: -5px;
+        transform: rotate(115deg);
+    }
+
+    &:after {
+        content: "";
+        border-right: 11px solid transparent;
+        border-bottom: 11px solid $footerBg;
+        border-left: 11px solid transparent;
+        position: absolute;
+        right: 13px;
+        top: -5px;
+        transform: rotate(-115deg) rotateY(180deg);
+    }
+}
+
+.ser-item-3 {
+    border-top: 15px solid $mainBg;
+    position: relative;
+
+    &:before {
+        content: "";
+        border-right: 10px solid transparent;
+        border-bottom: 30px solid $mainBg;
+        border-left: 30px solid transparent;
+        position: absolute;
+        left: -35px;
+        top: -16px;
+        transform: rotate(-72deg);
+    }
+}

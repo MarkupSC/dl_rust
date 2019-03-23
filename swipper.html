@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Swiper demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="css/bootstrap.min.css"> <!-- (bootstrap v3.3.7) -->
+    <link rel="stylesheet" href="css/all.css"> <!-- (font awesome 5.7.2) -->
+    <link rel="stylesheet" href="css/swiper.min.css"> <!-- (swiper v4.4.6) -->
+    <link rel="stylesheet" href="css/animate.min.css"> <!-- (animate v3.5.2) -->
+    <link rel="stylesheet" href="css/style.css"> <!-- (custom css) -->
+    <link rel="shortcut icon" href="favicon.ico"> <!-- (browser icon) -->
+
+<style>
+    /* html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      /* display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    } */ 
+  </style>
+</head>
+<body>
+
+  <hr><hr><hr>
+
+<div class=" container swiper-container">
+
+    <section class="features">
+    <div class="row">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+        <div class="feature-section">
+            <div class="col-sm-12 col-md-5 col wow slideInLeft">
+                <div class="col-md-4 col-xs-4"><img class="thumbnail img-responsive center" src="img/featureImg-01.jpg" alt=""></div>
+                <div class="col-md-4 col-xs-4"><img class="thumbnail img-responsive center" src="img/featureImg-02.jpg" alt=""></div>
+                <div class="col-md-4 col-xs-4"><img class="thumbnail img-responsive center" src="img/featureImg-03.jpg" alt=""></div>
+            </div> <!-- (left) /.wow /.fadeInLeft -->
+            <div class="r col-xs-12 col-sm-12 col-md-7 col-lg-7 wow slideInRight">
+                <div class="media">
+                    <div class="media-left">
+                        <i style="font-size:50px; color:#e6e3bb;" class="fas fa-award"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4>Krili havtret hyo gustripast</h4>
+                        <i>Lorem ipsum dolor sit amet.</i>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis numquam soluta temporibus ipsam officia repellendus doloremque optio impedit! Praesentium, unde? Lorem ipsum dolor sit amet.</p>
+            </div> <!-- (right) /.wow /.fadeInRight -->
+        </div> <!-- /.section (for getting some margin) -->
+    </div> <!-- /.row -->
+    </section>
+  Slide 1</div>
+<div class="swiper-slide">Slide 2</div>
+<div class="swiper-slide">Slide 3</div>
+</div>
+
+<div class="swiper-pagination"></div>
+
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+</div>
+
+<hr><br><br><br><br>
+<div class="container">
+  <section class="features">
+      <div class="features-arrew">
+          <a class="pull-left" href="#">
+              <span class="fa fa-chevron-left"></span>
+          </a> <!-- (Left Arrew) -->
+          <a class="pull-right" href="#">
+              <span class="fa fa-chevron-right"></span>
+          </a> <!-- (right Arrew) -->
+          <ul>
+              <li>Fetured Title 1</li>
+          </ul>
+      </div> <!-- /.features-arrew -->
+
+      <div class="row swiper-container">
+          <div class="feature-section">
+              <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="col-sm-12 col-md-5 col wow slideInLeft">
+                  <div class="col-md-4 col-xs-4"><img class="thumbnail img-responsive center" src="img/featureImg-01.jpg" alt=""></div>
+                  <div class="col-md-4 col-xs-4"><img class="thumbnail img-responsive center" src="img/featureImg-02.jpg" alt=""></div>
+                  <div class="col-md-4 col-xs-4"><img class="thumbnail img-responsive center" src="img/featureImg-03.jpg" alt=""></div>
+              </div> <!-- (left) /.wow /.fadeInLeft -->
+              <div class="r col-xs-12 col-sm-12 col-md-7 col-lg-7 wow slideInRight">
+                  <div class="media">
+                      <div class="media-left">
+                          <i style="font-size:50px; color:#e6e3bb;" class="fas fa-award"></i>
+                      </div>
+                      <div class="media-body">
+                          <h4>Krili havtret hyo gustripast 01</h4>
+                          <i>Lorem ipsum dolor sit amet.</i>
+                      </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis numquam soluta temporibus ipsam officia repellendus doloremque optio impedit! Praesentium, unde? Lorem ipsum dolor sit amet.</p>
+              </div> <!-- (right) /.wow /.fadeInRight -->
+              </div> <!-- /.swiper-slide -->
+
+              <div class="swiper-slide">
+                  <div class="col-sm-12 col-md-5 col wow slideInLeft">
+                    <div class="col-md-4 col-xs-4"><img class="thumbnail img-responsive center" src="img/featureImg-01.jpg" alt=""></div>
+                    <div class="col-md-4 col-xs-4"><img class="thumbnail img-responsive center" src="img/featureImg-02.jpg" alt=""></div>
+                    <div class="col-md-4 col-xs-4"><img class="thumbnail img-responsive center" src="img/featureImg-03.jpg" alt=""></div>
+                </div> <!-- (left) /.wow /.fadeInLeft -->
+                <div class="r col-xs-12 col-sm-12 col-md-7 col-lg-7 wow slideInRight">
+                    <div class="media">
+                        <div class="media-left">
+                            <i style="font-size:50px; color:#e6e3bb;" class="fas fa-award"></i>
+                        </div>
+                        <div class="media-body">
+                            <h4>Krili havtret hyo gustripast 02</h4>
+                            <i>Lorem ipsum dolor sit amet.</i>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis numquam soluta temporibus ipsam officia repellendus doloremque optio impedit! Praesentium, unde? Lorem ipsum dolor sit amet.</p>
+                </div> <!-- (right) /.wow /.fadeInRight -->
+                </div> <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                    <div class="col-sm-12 col-md-5 col wow slideInLeft">
+                      <div class="col-md-4 col-xs-4"><img class="thumbnail img-responsive center" src="img/featureImg-01.jpg" alt=""></div>
+                      <div class="col-md-4 col-xs-4"><img class="thumbnail img-responsive center" src="img/featureImg-02.jpg" alt=""></div>
+                      <div class="col-md-4 col-xs-4"><img class="thumbnail img-responsive center" src="img/featureImg-03.jpg" alt=""></div>
+                  </div> <!-- (left) /.wow /.fadeInLeft -->
+                  <div class="r col-xs-12 col-sm-12 col-md-7 col-lg-7 wow slideInRight">
+                      <div class="media">
+                          <div class="media-left">
+                              <i style="font-size:50px; color:#e6e3bb;" class="fas fa-award"></i>
+                          </div>
+                          <div class="media-body">
+                              <h4>Krili havtret hyo gustripast 03</h4>
+                              <i>Lorem ipsum dolor sit amet.</i>
+                          </div>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis numquam soluta temporibus ipsam officia repellendus doloremque optio impedit! Praesentium, unde? Lorem ipsum dolor sit amet.</p>
+                  </div> <!-- (right) /.wow /.fadeInRight -->
+                  </div> <!-- /.swiper-slide -->
+
+
+              </div> <!-- /.swiper-wrapper -->
+          </div> <!-- /.section (for getting some margin) -->
+      </div> <!-- /.row -->
+      <hr>
+  </section> <!-- /.features -->
+</div> <!-- /.container -->
+
+<script src="js/swiper.min.js"></script>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>

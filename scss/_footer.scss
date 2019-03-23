@@ -1,0 +1,50 @@
+.footer {
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: $footerBg;
+
+    h4 {
+        width: 100%;
+        color: $mainBg;
+        padding: 10px;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: left;
+        border-bottom: 2px solid $lightText;
+    }
+
+    .flickr {
+        img {
+            width: 60px;
+            height: 60px;
+            margin: 10px;
+            border: 5px solid $mainBg;
+        }
+    }
+
+    .clients {
+        width: 100%;
+        text-align: center;
+        a {
+            width: 100%;
+            display: block;
+
+            img {
+                height: 25px;
+                margin: 5px auto;
+                filter: grayscale(100%);
+            }
+        }
+
+        a.friends {
+            font-style: italic;
+            font-size: 14px;
+            font-weight: bold;
+            color: $text;
+            line-height: 25px;
+        }
+    }
+}
+

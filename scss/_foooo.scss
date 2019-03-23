@@ -1,0 +1,24 @@
+.foooo {
+    height: 50px;
+    background-color: $contBg;
+    color: $lightText;
+    line-height: 50px;
+    font-size: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+        display: inline;
+    }
+
+    a {
+        color: $top;
+        padding: 5px;
+        color: $top;
+    }
+}

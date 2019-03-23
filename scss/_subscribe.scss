@@ -1,0 +1,127 @@
+.border-top {
+    border-top: 10px solid $mainBg;
+}
+
+.subscriber {
+    background-color: $contBg;
+
+    h4 {
+        color: $mainBg;
+        font-weight: bold;
+        font-style: italic;
+
+        b {
+            font-weight: 900;
+            font-size: 110%;
+        }
+    }
+
+    p {
+        font-size: 12px;
+        color: $lightText;
+    }
+
+    img.media {
+        height: 140px;
+        height: 90px;
+        border: 3px solid $mainBg;
+    }
+
+    .subs-item {
+        position: relative;
+        //border-right: 1px solid $mainBg; Show in responsive.scss
+    }
+
+    .input-style {
+        padding: 2px;
+        border: 1px solid $lightText;
+        border-radius: 5px;
+
+        input {
+            background: $contBg;
+            color: red;
+            font-style: italic;
+            border: 0;
+            border-radius: 5px;
+        }
+
+        .subs-btn {
+            background-image: $grad;
+            color: $white;
+            border: 0;
+            border-radius: 5px;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .btn-grad {
+        width: 100%;
+        background-image: $grad;
+        color: $white;
+        font-style: italic;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+
+
+.news-item-1 {
+    border-top: 15px solid $contBg;
+    position: relative;
+    &:after {
+        content: "";
+        border-right: 30px solid transparent;
+        border-bottom: 30px solid $contBg;
+        border-left: 10px solid transparent;
+        position: absolute;
+        right: -35px;
+        top: -16px;
+        transform: rotate(72deg);
+    }
+}
+
+.news-item-2 {
+    border-top: 15px solid $contBg;
+    position: relative;
+    &:before {
+        content: "";
+    border-right: 11px solid transparent;
+    border-bottom: 11px solid $footerBg;
+    border-left: 11px solid transparent;
+    position: absolute;
+    left: 13px;
+    top: -5px;
+    transform: rotate(115deg);
+    }
+    &:after {
+    content: "";
+    border-right: 11px solid transparent;
+    border-bottom: 11px solid #e6e3bb;
+    border-left: 11px solid transparent;
+    position: absolute;
+    right: 13px;
+    top: -5px;
+    transform: rotate(-115deg) rotateY(180deg);
+    }
+}
+
+.news-item-3 {
+    border-top: 15px solid $contBg;
+    position: relative;
+    &:before {
+        content: "";
+        border-right: 10px solid transparent;
+        border-bottom: 30px solid $contBg;
+        border-left: 30px solid transparent;
+        position: absolute;
+        left: -35px;
+        top: -16px;
+        transform: rotate(-72deg);
+    }
+}
+
+

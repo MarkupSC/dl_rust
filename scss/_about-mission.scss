@@ -1,0 +1,80 @@
+.pagination {
+  width: 100%;
+  background-color: $contBg;
+  border-radius: 10px 10px 0 0;
+  color: $text;
+  padding: 10px;
+  border-bottom: 1px solid $text;
+  a {
+    color: $text;
+  }
+  a:last-child{
+    color: $mainBg;
+  }
+}
+
+.about-mission2 {
+  background-color: $contBg;
+  margin: 0px;
+  margin-top: -20px;
+  padding: 15px;
+  hr.about-hrr {
+    width: 100%;
+    max-width: 1080px;
+    margin: 10px auto;
+    border-bottom: 1px solid $black;
+    box-shadow: 0 1px 5px #ffffff57;
+  }
+}
+.blog-title {
+  .media-body {
+    padding-left: 10px;
+    h2,h4 {
+      color: $mainBg;
+      font-weight: 600;
+      margin-top: 0;
+      margin-bottom: 0px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    h4 {
+      font-size: 18px;
+    }
+    i.titt {
+    color: $lightText;
+    }
+  }
+  p {
+    margin: 0;
+    padding: 15px 0;
+    text-align: left;
+    line-height: 1.35;
+  }
+  p.tit {
+    font-size: 14px;
+    color: $lightText;
+    font-style: italic;
+    font-weight:bold;
+  }
+  button {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+}
+.about-m-bg {
+  background-color: $contBg;
+  border-radius: 10px 10px 0 0;
+}
+.video-info {
+  margin-top: 15px;
+}
+p.v-discription {
+  color: $lightText;
+  font-weight: initial;
+  font-style: normal;
+}
+.embed-custom {
+  padding-bottom:45% !important;
+  border: 5px solid $mainBg;
+}

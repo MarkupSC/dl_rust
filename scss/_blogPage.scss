@@ -1,0 +1,32 @@
+.blog-page {
+    background-color: $contBg;
+    padding: 15px;
+    margin-top: -20px;
+
+    .posts {
+
+        padding: 15px;
+        .post-item {
+            
+            img {
+                border: 5px solid $mainBg;
+                width: 100%;
+                max-height: 250px;
+            }
+            h4 {
+                font-size: 24px;
+                color: $mainBg;
+                margin: 0;
+            }
+            .pull-right h4 {
+                text-align: right;
+            }
+            span {
+                color: $lightText;
+                a {
+                    color: $footerBg;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.blog-area {
+    background-color: $footerBg;
+    padding: 35px 20px;
+
+    .items {
+        margin: 0;
+        padding: 35px 0px;
+        border-radius: 10px;
+        background-color: $contBg;
+        position: relative;
+
+    }
+
+
+    .blog-items {
+
+        i.fa {
+            color: $footerBg;
+            font-size: 15px;
+        }
+
+        h4 {
+            color: $bottom;
+            font-weight: 600;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .titt {
+            color: $text;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        p {
+            text-align: left;
+            font-style: italic;
+            font-weight: 600;
+            color: $lightText;
+            margin-top: 20px;
+        }
+
+        &:hover h4,
+        &:hover p {
+            color: $footerBg;
+        }
+    }
+}
+
+.tab-btn,
+.nav-tabs.nav-justified > li > a {
+    font-size: 12px;
+    color: $lightText;
+    background-color: $contBg;
+    border-radius: 7px 7px 0 0;
+
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+    font-size: 16px;
+    color: $footerBg;
+    background-color: $contBg;
+    cursor: default;
+    border-bottom-color: transparent;
+}
